@@ -1,0 +1,122 @@
+<!-- *************************************
+* Programmer: Luis Perez
+* Class ID: N/A
+* Lab #4: Fish Creek Animal Hospita CIS3900:Business Web Architecture * Fall2017
+* Due date: 11/12/17
+* Date completed: 11/12/17
+*************************************
+* Program Explanation
+* ON the Services.html we are duplicating thw work and style from Index.html
+but with the difference that it will contain different information.
+************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- for the <head> we are linking the file FishCreek.css which will give
+it a fresh look by addidng colors, font-styles, and many other design.
+<title> is the name that will show in the tap of the browser. -->
+
+<head>
+	<title>Fish Creek Animal Hospital Serices</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="fishcreek.css">
+</head>
+
+<!-- <body> is telling the program that we are now about to code the body of
+the website. This is where we genrally inter more input as is where clients
+look more often...We nned to keep the entire information inside body to
+see not allow the text or content outside the white box. -->
+
+<body>
+	<div id="wrapper">
+
+		<!-- h1 will be asigned for the header... imag src="" is empty to allow
+		css file to fill the spot... alt is to display the text -->
+		<h1 id="header">
+			<img src="" alt="Fish Creek Animal Hospital" />
+			<script
+				src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+ 		</h1>
+
+		<!-- in the nav are we link the tap to their actual website page, once
+		a clicked it will load a differen paga.
+		<a href = anchor tag, used to include hyperlinks
+		src = URL also a path to a selected image (deleted, dont need. CSS included)
+		alt= the text written to displayed
+		Width & height to give a specific section to that element in pixel values-->
+		<br />
+		<div class="nav" id="leftcolumn">
+			<ul>
+				<li>
+					<a href="index.html"> Home</a>
+				</li>
+				<li>
+					<a href="Services.html">Services</a>
+				</li>
+				<li>
+					<a href="Askvet.html">Ask the Vet</a>
+				</li>
+				<li>
+					<a href="Contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- the main content of the website. The style of the rightcolumn is
+		comming from the .css Class-->
+		<main id="rightcolumn">
+			<ul>
+				<li>
+					<dt class="category">
+						<span>
+							Medical Services
+						</span>
+					</dt> We offer state-of-the-art equipment and technology
+				</li>
+
+				<li>
+					<dt class="category">
+						<span>
+							Surgical Services
+						</span>
+					</dt> Full range of surgical procedures including orthopedics and emergency surgeries.
+				</li>
+
+				<li>
+					<dt class="category">
+						<span>
+							Dental Care
+						</span>
+					</dt> A dental exam can determine whether your pet needs prevention dental care such as scaling and polishing.
+				</li>
+
+				<li>
+					<dt class="category">
+						<span>
+							House Calls
+						</span>
+					</dt> The elderly, physically challenged, and multiple pet households often find our in-home veterinary service helpful and convenient.
+				</li>
+
+				<li>
+					<dt class="category">
+						<span>
+							Emergencies
+						</span>
+					</dt> At least one of our doctors is on call every day and night.
+				</li>
+			</ul>
+
+			<br>
+			<!--  footer section begins-->
+			<p id="footer">
+				Copyright &copy; 2016 Fish Creek Animal Hospital
+				<br>
+				<a href="mailto: Email: LuisPerez@fishcreek.com">LuisPerez@fishcreek.com
+		</main>
+	</div>
+</body>
+<!-- Make sure all the information is before </body> because that will determine
+what it takes to be inside the box-->
+</html>

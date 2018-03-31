@@ -1,0 +1,119 @@
+<!-- *************************************
+* Programmer: Luis Perez
+* Class ID: N/A
+* Lab #5: Fish Creek Animal Hospita CIS3900:Business Web Architecture * Fall2017
+* Due date: 11/20/17
+* Date completed: 11/20/17
+*************************************
+* Program Explanation
+* The file Index.html is designed to contain the welpage of the website.
+this is where we find the genral information about the website, is usually very
+well designed as is the first expereince the users have with the business.
+In this case, I am building a website for an Animal Hospital in wish the purpose
+is to provide helpful information to the customers about our service, contact
+meet the vets.
+************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- for the <head> we are linking the file FishCreek.css which will give
+it a fresh look by addidng colors, font-styles, and many other design.
+<title> is the name that will show in the tap of the browser.-->
+
+<head>
+	<title>Fish Creek Animal Hospital</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="FishCreek.css">
+
+</head>
+
+<!-- <body> is telling the program that we are now about to code the body of
+the website. This is where we genrally inter more input as is where clients
+look more often...We nned to keep the entire information inside body to
+see not allow the text or content outside the white box -->
+
+<body>
+	<div id="wrapper">
+
+		<!-- h1 will be asigned for the header... imag src="" is empty to allow
+		css file to fill the spot... alt is to display the text -->
+		<h1 id="header">
+			<img src="" alt="Fish Creek Animal Hospital">
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+		</h1>
+
+		<!-- in the nav are we link the tap to their actual website page, once
+		a clicked it will load a differen paga.
+		<a href = anchor tag, used to include hyperlinks
+		src = URL also a path to a selected image (deleted, dont need. CSS included)
+		alt= the text written to displayed
+		Width & height to give a specific section to that element in pixel values-->
+		<br/>
+		<div class="nav" id="leftcolumn">
+			<ul>
+				<li>
+					<a href="index.html"> Home</a>
+				</li>
+				<li>
+					<a href="Services.html">Services</a>
+				</li>
+				<li>
+					<a href="Askvet.html">Ask the Vet</a>
+				</li>
+				<li>
+					<a href="Contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- <br/> is used to make a line break-->
+		<br/>
+
+		<!-- the main content of the website -->
+		<main id="rightcolumn">
+
+			<!-- the <dt = a single term inline with body content
+			<dd> the difinition of the defined term we used this two
+			in the next lines of codes.-->
+
+			<dt class="category">
+				Full Service Facility
+			</dt>
+			<dd>
+				Veterinarians and staff are on duty 24 hours a day, 7 days a week.
+			</dd>
+
+			<dt class="category">
+				Years of Experience
+			</dt>
+			<dd>
+				Fish Creek Veterinarians have provided quality, dependable care for your beloved animals since 1984.
+			</dd>
+
+			<dt class="category">
+				Open Door Policy
+			</dt>
+			<dd>
+				the difinition of the defined term. Our Professionals welcome owners to stay with their pets during any medical procedure.
+			</dd>
+			<!--contact info-->
+			<p>
+				<br> 800-555-5555
+				<br> 1242 Grassy Lane
+				<br> Fish Creek, WI 55534
+				<br>
+			</p>
+			<br>
+			<!--  footer section begins-->
+			<p id="footer">
+				Copyright &copy; 2016 Fish Creek Animal Hospital
+				<br>
+				<a href="mailto: Email: LuisPerez@fishcreek.com">LuisPerez@fishcreek.com
+
+		</main>
+	</div>
+</body>
+<!-- Make sure all the information is before </body> because that will determine
+what it takes to be inside the box-->
+</html>

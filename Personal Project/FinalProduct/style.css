@@ -1,0 +1,178 @@
+/*
+* Programmer: Luis Perez
+* Class ID: N/A
+* Personal Website Project * Fall2017
+* Due date: 11/28/17
+* Date completed: 11/28/17
+*************************************
+* Program Explanation
+* Here i'm making all the design for the html files. I am mostly using class
+variables to make everything more independed
+************************************* */
+
+/*This will be used to give a backgound color...Apply to all using main
+Must change letter to color white*/
+
+/*the main class will get background color and fix the sizes of the back*/
+
+.main {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background-color: #08D0E6;
+}
+
+/*H1, H2, H3 are centered and font zises increased*/
+
+h1 {
+  font-size: 50px;
+  color: #87F2FE;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: #3B828A;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 25px;
+  color: steelblue;
+  text-align: center;
+}
+
+/******************************************************************************/
+
+/* these following codes are used for the nav bar... The following class are
+coded to make the nav bar look the way it is. I'm changing sizes, colors,padding,
+ and others.*/
+
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 10%;
+  left: -40px;
+  z-index: 100;
+}
+
+.menu li {
+  list-style: none;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  width: 140px;
+  cursor: pointer;
+}
+
+.menu li.active {
+  background-color: rgba(91, 193, 177, .75);
+  cursor: default;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/******************************************************************************/
+
+/*These following codes are used for the full image background...Index page*/
+
+img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/******************************************************************************/
+
+/*These is used for image on the middle of the page...About me page*/
+
+.description {
+  height: 400px;
+  width: 300px;
+  float: right;
+  margin-right: 300px;
+}
+
+.imgMe {
+  height: 400px;
+  width: 300px;
+  float: left;
+}
+
+/******************************************************************************/
+
+/*What I Do page*/
+
+.container {
+  padding-left: 110px;
+  padding-right: 30px;
+}
+
+.grid, .boxsection {
+  padding-left: 40px;
+  text-align: center;
+}
+
+.boxsection {
+  display: inline-table;
+  vertical-align: top;
+}
+
+.boxsection {
+  width: 22%;
+}
+
+.IconImg {
+  height: 50px;
+  width: 50px;
+}
+
+/******************************************************************************/
+
+/*contact me page*/
+
+form {
+  margin: 20px auto;
+  width: 320px;
+  color: steelblue;
+}
+
+input {
+  padding: 10px;
+  font-size: inherit;
+}
+
+.text {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid steelblue;
+  background: #FAF6D9;
+}
+
+.message {
+  margin-bottom: 25px;
+  width: 100%;
+  height: 90px;
+  border: 2px solid steelblue;
+  background: #FAF6D9;
+}
+
+.email {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px solid steelblue;
+  background: #FAF6D9;
+}

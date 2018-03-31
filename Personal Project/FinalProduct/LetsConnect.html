@@ -1,0 +1,77 @@
+<!-- *************************************
+* Programmer: Luis Perez
+* Class ID: N/A
+* Personal Website Project * Fall2017
+* Due date: 11/28/17
+* Date completed: 11/28/17
+*************************************
+* Program Explanation
+* Made a table to get the information of the people who want to reach out to me.
+I am not usign connection my elements to css. I made it this way becuase some
+elements are repeting from the css. I decided to make everything in a single file.
+************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Let's Connect</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- style section to use on the same page -->
+  <style>
+    /* submit is used for the submit button  */
+
+    input[type="submit"] {
+      width: 344px;
+      height: 45px;
+      border: none;
+      background: steelblue;
+      color: white;
+    }
+
+    input[type="submit"]:focus {
+      width: 344px;
+      height: 45px;
+      border: solid steelblue;
+      background: white;
+      color: steelblue;
+    }
+
+  </style>
+
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <ul class="menu">
+    <li><a href="Index.html">Hello</a></li>
+    <li><a href="AboutMe.html">About Me</a></li>
+    <li><a href="WhatIDo.html">What I Do</a></li>
+    <li><a href="LetsConnect.html">Lets Connect</a></li>
+  </ul>
+
+  <!-- text on top of the page -->
+  <h1>Let&#39;s Connect</h1>
+  <h3>Sometimes magic happens when you start talking to people you don't know </h3>
+  <!-- coding the table -->
+  <form>
+    <!-- text box for name -->
+    <input class="text" placeholder="What's your name?">
+    <!-- text box for contact info -->
+    <input class="email" placeholder="How can I reach out to you?">
+    <!-- box to imput message -->
+    <input class="message" placeholder="How can I Help you?">
+    <!-- button to submit -->
+    <input type="submit" name="Submit">
+  </form>
+  <!-- footer section -->
+</body>
+<footer>
+  Website fully coded by
+  <a href="mailto: Email: luisperez@.com">luis@loopcodingcenter.com
+		</a>
+
+</footer>
+
+</html>

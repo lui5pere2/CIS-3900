@@ -1,0 +1,151 @@
+/*
+* Programmer: Luis Perez
+* Class ID: N/A
+* Lab #4:Fish Creek Animal Hospita CIS3900: Business Web Architecture * Fall2017
+* Due date: 11/12/17
+* Date completed: 11/12/17s
+*************************************
+* Program Explanation
+* I am following the book but trying new codes. I am making sure
+the final product looks the same as is requested.
+the .css file will collaborate with the .html files to give it a better and
+more realistic feeling of the website.
+*************************************
+*/
+
+/*The body is design to make the image show in the background we are also
+giving instructions of the text font*/
+
+body {
+  background-image: url(gradientblue.jpg);
+  font-family: Verdana, Arial, sans-serif;
+}
+
+/*this section of the #wrapper is to assign how the design of the website
+including the white box and the location*/
+
+#wrapper {
+  background-color: #ffffff;
+  color: #000066;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 700px;
+}
+
+/*I found the issue of the header. The imgae of 'bigfish.gif goes here in the
+.css file and it usted to be in the .html file not allowin to show the text
+on the #header i'm assignin the text alingment, inatructions of where to
+locate the image and no repeat... header is a ID based on #*/
+
+#header {
+  text-align: center;
+  background-color: #000066;
+  color: #ffffff;
+  padding: 10px;
+  background-image: url(bigfish.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* #leftcolumn is an ID. anything that we want  in the .html file will be
+located on the left*/
+
+#leftcolumn {
+  float: left;
+  width: 150px;
+}
+
+/*unorded list to be as none*/
+
+ul {
+  list-style-type: none;
+}
+
+/*removes the underline of the list*/
+
+a {
+  text-decoration: none;
+}
+
+/* normal unvisited link */
+
+a:link {
+  color: #3262A3;
+}
+
+/*a link the user has visited*/
+
+a:visited {
+  color: #6699ff;
+}
+
+/*link when the user move the mouve over*/
+
+a:hover {
+  color: #cccccc;
+}
+
+/*rightcolumn will be assign in the .html and is giving instructions to the
+the distance in the right*/
+
+#rightcolumn {
+  margin-left: 180px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+/*instructions to the navegation most related to the style*/
+
+nav {
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  width: 150px;
+  padding: 10px;
+}
+
+/*category is a class (.) */
+
+.category {
+  font-weight: bold;
+  font-size: 1.1em;
+  text-shadow: 1px 1px 1px #666666;
+  background-color: #ffffff;
+}
+
+/*Assigning setting for h1*/
+
+h1 {
+  font-size: 3em;
+  text-shadow: #cccccc;
+  line-height: 150px;
+  padding: 10px;
+}
+
+/*telling the browser the settings of the sizing properties*/
+
+* {
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  display: block;
+}
+
+/*footer section to arenge what setting we want to see in the footer
+we are making the font of the text a size .75em and italic font.
+I commented out 'margin-left: 180px;' becuase I did not needed
+as in previous lines of codes the margin-left is all setup.
+by adding here it would make the footer go to much to the left */
+
+#footer {
+  padding: 10px;
+  /*margin-left: 180px;*/
+  font-size: .75em;
+  font-style: italic;
+}
+
+style {
+  display: block: block:;
+}

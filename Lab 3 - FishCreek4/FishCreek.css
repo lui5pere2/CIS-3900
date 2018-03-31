@@ -1,0 +1,47 @@
+body {
+  background-color: #6699FF;
+  color: #D5E3FF;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+  background-color: #6699FF;
+  color: #003366;
+  line-height: 100px;
+
+	font-family: serif;
+}
+
+nav {
+  font-weight: bold;
+  text-align: center;
+}
+
+footer nav{
+  text-align: left;
+}
+/*no the right code*/
+img{
+  border: no border;
+}
+
+.category {
+  font-weight: bold;
+	background-color: #6699FF;
+	color: #003366;
+	font-size: 1.1em;
+  text-shadow: 1px 1px 1px #667;
+}
+
+footer {
+  font-size: .75em;
+	font-style: italic;
+}
+
+#wrapper {
+  min-width: 700px;
+  max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}

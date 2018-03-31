@@ -1,0 +1,92 @@
+<!-- *************************************
+* Programmer: Luis Perez
+* Class ID: N/A
+* Lab #4: Fish Creek Animal Hospita CIS3900:Business Web Architecture * Fall2017
+* Due date: 11/12/17
+* Date completed: 11/12/17
+*************************************
+* Program Explanation
+* ON the Contact.html we are duplicating thw work and style from Index.html
+but with the difference that it will contain different information.
+************************************* -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- [if lt IE 9]>
+<scrip src="http://html5.shim.googlecode.com/svn/trunk/html5.js">
+</scrip>
+<![endif] -->
+
+<head>
+	<title>Fish Creek Animal Hospital Ask the Vet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="fishcreek.css">
+
+</head>
+
+<!-- <body> is telling the program that we are now about to code the body of
+the website. This is where we genrally inter more input as is where clients
+look more often...We nned to keep the entire information inside body to
+see not allow the text or content outside the white box -->
+
+<body>
+	<div id="wrapper">
+
+		<!-- h1 will be asigned for the header... imag src="" is empty to allow
+		css file to fill the spot... alt is to display the text -->
+		<h1 id="header">
+			<img src="" alt="Fish Creek Animal Hospital" />
+			<script
+				src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+ 		</h1>
+
+		<!-- in the nav are we link the tap to their actual website page, once
+		a clicked it will load a differen paga.
+		<a href = anchor tag, used to include hyperlinks
+		src = URL also a path to a selected image (deleted, dont need. CSS included)
+		alt= the text written to displayed
+		Width & height to give a specific section to that element in pixel values-->
+		</br/>
+		<div class="nav" id="leftcolumn">
+			<ul>
+				<li>
+					<a href="index.html"> Home</a>
+				</li>
+				<li>
+					<a href="Services.html">Services</a>
+				</li>
+				<li>
+					<a href="Askvet.html">Ask the Vet</a>
+				</li>
+				<li>
+					<a href="Contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+		<!--This section is for the main message or the body of the website-->
+		<main id="rightcolumn">
+			<a href="contact.html">Contact</a> us if you have a question that you would like answered here.
+
+			<dt class="category">
+				<br>
+				Our dog,Sparky, likes to eat whatever the kids are snacking on. Is it OK for
+				the dog to eat chocolate?
+			</dt>
+			<dd>
+				Choloate is toxic to dogs. Please do not feed your dog chocolate. Tyr playing a game with your children&ndash; When you feed them people treats, they can feed Sparky dog treats.
+			</dd>
+
+			<!-- this section if for the foorter containg links and final words-->
+			<br>
+
+			<p id="footer">
+				Copyright &copy; 2016 Fish Creek Animal Hospital
+				<br>
+				<a href="mailto: Email: LuisPerez@fishcreek.com">LuisPerez@fishcreek.com
+		</main>
+	</div>
+</body>
+<!-- Make sure all the information is before </body> because that will determine
+what it takes to be inside the box-->
+</html>
